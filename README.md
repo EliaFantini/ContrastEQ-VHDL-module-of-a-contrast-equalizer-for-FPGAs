@@ -25,13 +25,13 @@ A detailed explanation of how the module works and how it was tested is in the *
 - [Elia Fantini](https://www.github.com/EliaFantini)
 - [Mauro Famà](https://github.com/maurofama99)
 
-### Contents
+## Contents
 * In the **code** folder there is the code written in VHDL language of the implemented module and two testbench.
 * The documentation (in italian) of the project is in the **doc** folder.
 * In the **spec** folder there are the specifications and project rules provided by the teachers (in italian).
 
 ## 🛠 Skills
-Basics of VHDL. Usage of Xilinx Vivado software, testing and benchmarking of the final module.
+VHDL language. Usage of Xilinx Vivado software, testing and benchmarking of the final module.
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/EliaFantini/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/-elia-fantini/)
