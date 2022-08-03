@@ -1,29 +1,37 @@
-Prova Finale (Progetto di Reti Logiche) A.A. 2020/2021
-======================================================
-## English
-The Logic Networks project consists in the design and implementation of a module in VHDL language starting from a specification in natural language of its behaviour.
-The structure of the specification is designed so that the student uses the knowledge acquired in the Logic Networks exam to create an implementation that is functionally correct, but also synthesized using CAD tools.
-The aim of the test is to apply the design techniques of complex circuits using the VHDL language and the synthesis tools used for the development of FPGAs.
+<p align="center">
+  <img alt="🎚️ContrastEQ" src="https://user-images.githubusercontent.com/62103572/182627173-11e9cf29-0115-4058-abd1-2cf337185515.png">
+  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/EliaFantini/ContrastEQ-VHDL-module-of-a-contrast-equalizer-for-FPGAs">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliaFantini/ContrastEQ-VHDL-module-of-a-contrast-equalizer-for-FPGAs">
+  <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/EliaFantini/ContrastEQ-VHDL-module-of-a-contrast-equalizer-for-FPGAs">
+  <img alt="GitHub code size" src="https://img.shields.io/github/languages/code-size/EliaFantini/ContrastEQ-VHDL-module-of-a-contrast-equalizer-for-FPGAs">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/EliaFantini/ContrastEQ-VHDL-module-of-a-contrast-equalizer-for-FPGAs">
+  <img alt="GitHub file count" src="https://img.shields.io/github/directory-file-count/EliaFantini/ContrastEQ-VHDL-module-of-a-contrast-equalizer-for-FPGAs">
+  <img alt="GitHub follow" src="https://img.shields.io/github/followers/EliaFantini?label=Follow">
+  <img alt="GitHub fork" src="https://img.shields.io/github/forks/EliaFantini/ContrastEQ-VHDL-module-of-a-contrast-equalizer-for-FPGAs?label=Fork">
+  <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/EliaFantini/ContrastEQ-VHDL-module-of-a-contrast-equalizer-for-FPGAs?abel=Watch">
+  <img alt="GitHub star" src="https://img.shields.io/github/stars/EliaFantini/ContrastEQ-VHDL-module-of-a-contrast-equalizer-for-FPGAs?style=social">
+</p>
+ConstrastEQ is a VHDL module of a contrast equalizer to be implemented on FPGAs. A contrast equalizer is a module that maximizes contrast in images by taking the minimum and maximum pixel values and making them 0 and 255 respectively, scaling all other pixels' values accordingly.
+<p align="center">
+  <img width="auto" alt="image" src="https://user-images.githubusercontent.com/62103572/182632308-21e6a24f-616b-4f13-acc2-c607bf12392b.png">
+</p>
+This project was made as an assignment of Logic Networks' course (2020/2021), and consisted in the design and implementation of a module in VHDL language starting from a specification in natural language of its behaviour. The following is a finite state machine schema, describing the behavior of the module:
+<p align="center">
+  <img width="auto" alt="Immagine 2022-08-03 154824" src="https://user-images.githubusercontent.com/62103572/182632234-15ef17cb-b223-45a5-be58-ed7f55472f8f.png">
+</p>
+
+A detailed explanation of how the module works and how it was tested is in the *doc* folder, in *Report_reti_logiche.pdf*. Unfortunately the report had to be written in italian, we suggest the use of automatic translation tools.
+## Authors
+- [Elia Fantini](https://www.github.com/EliaFantini)
+- [Mauro Famà](https://github.com/maurofama99)
 
 ### Contents
----------
 * In the **code** folder there is the code written in VHDL language of the implemented module and two testbench.
-* The documentation of the project is in the **doc** folder.
-* In the **spec** folder there are the specifications and project rules provided by the teachers.
+* The documentation (in italian) of the project is in the **doc** folder.
+* In the **spec** folder there are the specifications and project rules provided by the teachers (in italian).
 
-## Italiano
-
-Il progetto di Reti Logiche consiste nella progettazione e realizzazione di un modulo in linguaggio VHDL a partire da una specifica in linguaggio naturale del suo funzionamento.
-La struttura della specifica è pensata affinché lo studente utilizzi le conoscenze acquisite nell'esame di Reti Logiche per realizzare un'implementazione che sia funzionalmente  corretta, ma anche sintetizzabile usando strumenti CAD.
-Lo scopo della prova è quello di applicare le tecniche di progettazione di circuiti complessi mediante il linguaggio VHDL e gli strumenti di sintesi usati per lo sviluppo di FPGA.
-
-### Contenuti
----------
-* Nella cartella **code** è presente il codice scritto in linguaggio VHDL del modulo implementato e due Test Bench.
-* Nella cartella **doc** è presente la documentazione del progetto.
-* Nella cartella **spec** sono presenti le specifiche e le regole di progetto fornite dai docenti.
-
-### Developers
-------------
-* [Mauro Famà](https://github.com/maurofama99)
-* [Elia Fantini](https://github.com/EliaFantini)
+## 🛠 Skills
+Basics of VHDL. Usage of Xilinx Vivado software, testing and benchmarking of the final module.
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/EliaFantini/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/-elia-fantini/)
