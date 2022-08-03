@@ -24,6 +24,8 @@ A detailed explanation of how the module works and how it was tested is in the *
 ## Authors
 - [Elia Fantini](https://www.github.com/EliaFantini)
 - [Mauro Famà](https://github.com/maurofama99)
+## How to use
+The file *retilogiche.vhd* in the **code** folder has to be opened by the software **Xilinx Vivado** or similar softwares and has to be synthetized on a FPGA. For our tests, we used a simulated *xc7a200tfbg484-1* FPGA.
 
 ## Contents
 * In the **code** folder there is the code written in VHDL language of the implemented module and two testbench.
